@@ -14,3 +14,12 @@ def fact(x):
         return x * fact(x-1)
 
 print(fact(5))
+
+def fib(n):
+    if(n<=2):
+        return 1;
+    else:
+        return fib(n-1)+fib(n-2)
+
+f6=fib(6)
+print(f6)

@@ -65,6 +65,7 @@ def binary_search(list, item):
 
 
 ind=binary_search(persons, "Damir")
+
 print(ind)
 
 if ind:
